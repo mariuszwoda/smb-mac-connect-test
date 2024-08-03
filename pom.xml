@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>smb-mac-connect-test</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>3.3.2</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>com.hierynomus</groupId>
+            <artifactId>sshj</artifactId>
+            <version>0.31.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.hierynomus</groupId>
+            <artifactId>smbj</artifactId>
+            <version>0.12.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>eu.agno3.jcifs</groupId>
+            <artifactId>jcifs-ng</artifactId>
+            <version>2.1.7</version>
+        </dependency>
+<!--            <dependency>-->
+<!--                <groupId>org.bouncycastle</groupId>-->
+<!--                <artifactId>bcpkix-jdk15on</artifactId>-->
+<!--                <version>1.69</version>-->
+<!--            </dependency>-->
+
+        <!--        <dependency>-->
+<!--            <groupId>org.apache.httpcomponents</groupId>-->
+<!--            <artifactId>httpclient</artifactId>-->
+<!--            <version>4.5.13</version>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>org.bouncycastle</groupId>-->
+<!--            <artifactId>bcprov-jdk15on</artifactId>-->
+<!--            <version>1.68</version>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>org.bouncycastle</groupId>-->
+<!--            <artifactId>bcpkix-jdk15on</artifactId>-->
+<!--            <version>1.68</version>-->
+<!--        </dependency>-->
+
+            <dependency>
+                <groupId>javax.annotation</groupId>
+                <artifactId>javax.annotation-api</artifactId>
+                <version>1.3.2</version>
+            </dependency>
+
+<!--            &lt;!&ndash; JCIFS for SMB access &ndash;&gt;-->
+<!--            <dependency>-->
+<!--                <groupId>org.codelibs</groupId>-->
+<!--                <artifactId>jcifs</artifactId>-->
+<!--                <version>2.1.6</version>-->
+<!--            </dependency>-->
+
+<!--            &lt;!&ndash; Bouncy Castle for handling .p12 files &ndash;&gt;-->
+<!--            <dependency>-->
+<!--                <groupId>org.bouncycastle</groupId>-->
+<!--                <artifactId>bcprov-jdk15on</artifactId>-->
+<!--                <version>1.70</version>-->
+<!--            </dependency>-->
+
+
+        <!--        <dependency>-->
+<!--            <groupId>com.hierynomus</groupId>-->
+<!--            <artifactId>smbj</artifactId>-->
+<!--            <version>0.12.0</version>-->
+<!--        </dependency>-->
+
+        <!--        <dependency>-->
+<!--            <groupId>org.codelibs</groupId>-->
+<!--            <artifactId>jcifs</artifactId>-->
+<!--&lt;!&ndash;            <version>1.3.19</version>&ndash;&gt;-->
+<!--            <version>2.1.6</version>-->
+<!--        </dependency>-->
+
+<!--                <dependency>-->
+<!--            <groupId>com.hierynomus</groupId>-->
+<!--            <artifactId>smbj</artifactId>-->
+<!--            <version>0.12.0</version> &lt;!&ndash; Check for the latest version &ndash;&gt;-->
+<!--        </dependency>-->
+
+<!--        <dependency>-->
+<!--            <groupId>org.codelibs</groupId>-->
+<!--            <artifactId>jcifs</artifactId>-->
+<!--            <version>2.1.6</version>-->
+<!--        </dependency>-->
+
+
+<!--        <dependency>-->
+<!--            <groupId>org.jcifs</groupId>-->
+<!--            <artifactId>jcifs-ng</artifactId>-->
+<!--            <version>2.1.17</version> &lt;!&ndash; Update to the latest version &ndash;&gt;-->
+<!--        </dependency>-->
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+    </dependencies>
+</project>
